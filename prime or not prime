@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    bool prime=true;
+    cout<<"enter a number:-"<<endl;
+    cin>>number;
+    for(int i=2;i<=(number-1);i++)
+    {
+        if (number % i==0){
+        cout<<"non prime number"<<endl;
+        prime=false;
+    }
+    }
+   if(prime==true)
+   {
+       cout<<" prime number"<<endl;
+}
+
+    return 0;
+}
