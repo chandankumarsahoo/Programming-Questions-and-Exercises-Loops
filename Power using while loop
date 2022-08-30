@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int base, power, result=1, i=1;
+    cout<<"Enter the base: ";
+    cin>>base;
+    cout<<"Enter the power: ";
+    cin>>power;
+    while(i <= power)
+    {
+        result = result * base;
+        i++;
+    }
+    cout<<"result " <<result<<endl;
+    return 0;
+}
