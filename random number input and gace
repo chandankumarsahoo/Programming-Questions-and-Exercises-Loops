@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n=0;
+	int x;
+	cout<<"Think a number and start finding the number:---"<<endl;
+	cout<<"Enter a number that you are gace:-"<<endl;
+    cin >>x;
+    while(x!=n){
+	cout<<"Give a random number:-"<<endl;
+	cin>>n;
+	if (x>n)
+	{
+		cout<<"To low number"<<endl;
+	}else if(x<n){
+		cout<<"To high number"<<endl;
+	}else if(x==n){
+	    cout<<"This is the number"<<endl;
+	}
+	}
+	return 0;
+}
